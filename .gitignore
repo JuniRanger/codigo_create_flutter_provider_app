@@ -1,0 +1,232 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/android/app/google-services.json
+
+# Web related
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Generated build artifacts
+*.cache.dill
+*.lock
+data/
+flutter_assets/
+native_assets/
+packages/flutter_tools/test/data/dart_dependencies_test/
+
+# IDE metadata
+.metadata
+*.iml
+*.iws
+*.ipr
+.idea/
+.vscode/
+
+# Environment and configuration
+*.env
+*.env.local
+*.env.*.local
+.env.example
+.env.production
+
+# Logs and caches
+*.log
+*.logs
+.cache/
+.sass-cache/
+
+# Platform build directories (allow only source code in lib/, assets/, test/, etc.)
+/android/
+/ios/
+/macos/
+/linux/
+/windows/
+/web/
+
+# Application data (not source code)
+*.dat
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary and backup files
+*~
+*.swp
+*.swo
+*tmp*
+*temp*
+
+# Distribution files
+dist/
+out/
+build/web/
+
+# Package manager
+node_modules/
+.pnp.*
+.yarn/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Dependency directories
+jspm_packages/
+
+# OS generated files
+.DS_Store
+.DESKTOP_EDITOR
+Thumbs.db
+
+# Flutter specific
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+*.packages
+
+# Generated from packages
+doc/
+
+# Local development files
+hostname
+ip_address
+
+# Ignore all platform-specific build artifacts
+*.apk
+*.aab
+*.ipa
+*.app
+*.dylib
+*.so
+*.dll
+
+# Ignore generated assets
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.webp
+*.ico
+
+# Ignore compiled binaries
+*.exe
+*.out
+*.so
+
+# Ignore test artifacts
+test/flutter_driver_output.json
+
+# Ignore any remaining build artifacts
+*.bak
+*.orig
+*.rej
+
+# Ignore system swap files
+*.*-swap
+
+# Ignore xcode derived data
+DerivedData/
+
+# Ignore gradle wrapper properties
+android/gradle/wrapper/gradle-wrapper.properties
+
+# Ignore local.properties
+android/local.properties
+
+# Ignore derived from analytics
+*.analytics
+
+# Ignore temporary build directories
+*/.dart_tool/**
+*/.packages
+*/.pub-cache/**
+
+# Ignore module build directories
+*/build/**
+*/ios/Flutter/
+*/ios/Runner/Flutter/
+*/macos/Flutter/
+*/android/app/src/main/flutter
+
+# Ignore web build artifacts
+web/build/
+web/cache/
+
+# Ignore test artifacts
+test/reports/
+test/screenshots/
+
+# Ignore database files
+*.sqlite
+*.sqlite3
+
+# Ignore configuration backups
+*.yml.backup
+*.yaml.backup
+*.json.backup
+*.xml.backup
+
+# Ignore temporary files
+*.temp
+*.tmp
+*.temp.*
+*.tmp.*
+
+# Ignore node modules
+node_modules/
+
+# Ignore coverage
+.coverage
+htmlcov/
+
+# Ignore distribution packages
+dist/
+pkg/
+
+# Ignore dotfiles that shouldn't be committed
+.bash_history
+.history
+.zsh_history
+.profile
+.bashrc
+
+# Ignore files that contain private data
+*.pem
+*.key
+*.p12
+
+# Ignore workspace files
+*.swp
+*.swo
+*~
